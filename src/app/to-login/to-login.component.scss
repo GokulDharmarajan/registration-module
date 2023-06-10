@@ -1,0 +1,44 @@
+.sentemail{
+    display: flex;
+    height: 100vh;
+    .imagecol{
+        background-color: #EB5757;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+
+        }
+    }
+    .messagecol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 63%;
+            margin-left: 40px;
+            h2{
+                color: #219653;
+                margin: 0;
+            }
+            p{
+                margin-top: 31px;
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+            button{
+                width: 100%;
+                margin-top: 31px;
+                font-weight: 500;
+                font-size: 13px;
+                border: none;
+                border-radius: 3px;
+                padding: 7px 0;
+                background-color:  #2D81F7;
+                color: #fff;
+            }
+    }
+}
+}

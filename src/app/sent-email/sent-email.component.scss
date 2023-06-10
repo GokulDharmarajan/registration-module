@@ -1,0 +1,39 @@
+.sentemail{
+    display: flex;
+    height: 100vh;
+    .imagecol{
+        background-color: #EB5757;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+
+        }
+    }
+    .messagecol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 77%;
+            margin-left: 31px;
+        .hello{            
+            p{
+                margin: 0;
+                font-weight: 600;
+                font-size: 22px;
+                color: #000000;
+            }
+        }
+        .emailmessage{
+            p{
+                font-weight: 100;
+                font-size: 15px;
+                color: #000000;
+            }
+        }
+    }
+}
+}
