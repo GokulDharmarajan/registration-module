@@ -4,11 +4,13 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { SentEmailComponent } from './sent-email/sent-email.component';
 import { ToLoginComponent } from './to-login/to-login.component';
 import { VerificationComponent } from './verification/verification.component';
+import { VerifyComponent } from './verify/verify.component';
 
 const routes: Routes = [
   {path:'email',component:SentEmailComponent},
-  {path:'toLogin',component:ToLoginComponent},
+  {path:'verified',component:ToLoginComponent},
   {path:'verification',component:VerificationComponent},
+  {path:'verify/:token',component:VerifyComponent},
   {path:'**',component:SignUpComponent},
 
 ];

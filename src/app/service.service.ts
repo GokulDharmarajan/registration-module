@@ -11,5 +11,9 @@ export class ServiceService {
     console.log(body);    
     return this.http.post(this.url+'/newuser',body)
   }
+  updatIsverified(token:any){
+    console.log("service      :"+token);    
+    return this.http.put(this.url+'/updateIsverified',{token:token})
+  }
 }
 

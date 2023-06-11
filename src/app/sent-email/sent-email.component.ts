@@ -8,7 +8,7 @@ import {  Router} from "@angular/router";
 })
 export class SentEmailComponent {
 constructor(private router:Router){}
-toLogin(){
-  this.router.navigate(['toLogin'])
-}
+// toLogin(){
+//   this.router.navigate(['toLogin'])
+// }
 }

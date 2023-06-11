@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ServiceService } from './service.service';
 import { VerificationComponent } from './verification/verification.component';
+import { VerifyComponent } from './verify/verify.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { VerificationComponent } from './verification/verification.component';
     SignUpComponent,
     SentEmailComponent,
     ToLoginComponent,
-    VerificationComponent
+    VerificationComponent,
+    VerifyComponent
   ],
   imports: [
     BrowserModule,
